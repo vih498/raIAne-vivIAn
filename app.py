@@ -6,7 +6,7 @@ from views import conteudo_ia, tradutor, analise_documentos
 init_db()
 atualizar_tabela()
 
-st.markdown('<h1 style="color:black; font-size:75px;">Projeto RaIAne VivIAn</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="color:black; font-size:75px;">RaIAne VivIAn</h1>', unsafe_allow_html=True)
 
 if "api_key" not in st.session_state:
     st.session_state.api_key = None
@@ -82,5 +82,6 @@ page_bg = """
 """
 
 st.markdown(page_bg, unsafe_allow_html=True)
+
 
 
