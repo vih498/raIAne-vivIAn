@@ -1,4 +1,4 @@
-# Projeto raIAne - Configuração Local
+# Projeto raIAne vivIan - Configuração Local
 
 ---
 
@@ -35,3 +35,4 @@ pip freeze > requirements.txt
 ## 5. Rodar o projeto
 
 streamlit run app.py
+
